@@ -4,7 +4,7 @@
 
 - Bash es conocido en la industria como ``SHELL``.
 
-- Cuando abrimos una terminal en un sistema operativo como **UNIX** o **LINUX**** donde usamos comandos estamos interactuando con una ``SHELL``.
+- Cuando abrimos una terminal en un sistema operativo como **UNIX** o **LINUX** donde usamos comandos estamos interactuando con una ``SHELL``.
 
 - Una ``SHELL`` nos permite ejecutar comandos que dan como resultado una impresion en la consola.
 
@@ -17,7 +17,7 @@
 
 ### Como convertir estos comandos en un Script.
 
-1.Crear el archivo con terminación .sh (esto no es necesario, pero es una práctica común) 
+1.Crear el archivo con terminación .sh (esto no es necesario, pero es una práctica común). 
   ```sh
   nvim myScript.sh
   ```
@@ -51,8 +51,3 @@
 
 echo "Hello World"
 ```
-
-
----
-
-

@@ -2,6 +2,7 @@
  
 #cear variable
 
-my_name="Gerardo"
+num1="35"
+num2="70"
 
-echo "Yo soy $my_name, this is your user $USER"
+echo $(($num1 + $num2))

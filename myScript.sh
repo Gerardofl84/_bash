@@ -1,8 +1,12 @@
  #!/bin/bash
  
-#cear variable
+myNum=200
 
-num1="35"
-num2="70"
+if [ $myNum == 200 ]
+then
+  echo "this is my first if statement"
+else
+  echo "esto ha fallado"  
+fi
 
-echo $(($num1 + $num2))
+

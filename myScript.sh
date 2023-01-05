@@ -1,12 +1,9 @@
  #!/bin/bash
  
-myNum=200
+package=htop
 
-if [ $myNum == 200 ]
-then
-  echo "this is my first if statement"
-else
-  echo "esto ha fallado"  
-fi
+sudo pacman -S $package
+
+echo "The exit code for the package istall is: $?"
 
 
